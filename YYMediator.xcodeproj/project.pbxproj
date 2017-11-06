@@ -7,25 +7,45 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		577D9A281FB0615800A808BC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 577D9A271FB0615800A808BC /* AppDelegate.m */; };
-		577D9A2B1FB0615800A808BC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 577D9A2A1FB0615800A808BC /* ViewController.m */; };
-		577D9A2E1FB0615800A808BC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 577D9A2C1FB0615800A808BC /* Main.storyboard */; };
-		577D9A301FB0615800A808BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 577D9A2F1FB0615800A808BC /* Assets.xcassets */; };
-		577D9A331FB0615800A808BC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 577D9A311FB0615800A808BC /* LaunchScreen.storyboard */; };
-		577D9A361FB0615800A808BC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 577D9A351FB0615800A808BC /* main.m */; };
+		577D9A581FB0652700A808BC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 577D9A3E1FB0652700A808BC /* AppDelegate.m */; };
+		577D9A591FB0652700A808BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 577D9A3F1FB0652700A808BC /* Assets.xcassets */; };
+		577D9A5A1FB0652700A808BC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 577D9A401FB0652700A808BC /* LaunchScreen.storyboard */; };
+		577D9A5B1FB0652700A808BC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 577D9A421FB0652700A808BC /* Main.storyboard */; };
+		577D9A5C1FB0652700A808BC /* YYMediator+YYMediatorModuleAActions.m in Sources */ = {isa = PBXBuildFile; fileRef = 577D9A471FB0652700A808BC /* YYMediator+YYMediatorModuleAActions.m */; };
+		577D9A5D1FB0652700A808BC /* Target_A.m in Sources */ = {isa = PBXBuildFile; fileRef = 577D9A4B1FB0652700A808BC /* Target_A.m */; };
+		577D9A5E1FB0652700A808BC /* DemoModuleADetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 577D9A4D1FB0652700A808BC /* DemoModuleADetailViewController.m */; };
+		577D9A5F1FB0652700A808BC /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 577D9A4E1FB0652700A808BC /* Info.plist */; };
+		577D9A601FB0652700A808BC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 577D9A4F1FB0652700A808BC /* main.m */; };
+		577D9A611FB0652700A808BC /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 577D9A521FB0652700A808BC /* TableViewController.m */; };
+		577D9A621FB0652700A808BC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 577D9A541FB0652700A808BC /* ViewController.m */; };
+		577D9A631FB0652700A808BC /* YYMediator.m in Sources */ = {isa = PBXBuildFile; fileRef = 577D9A571FB0652700A808BC /* YYMediator.m */; };
+		FCC7C7A37F14CF20276FE8D7 /* libPods-YYMediator.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DC9496E0BC7C4A8DCD5C5EC3 /* libPods-YYMediator.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		577D9A231FB0615800A808BC /* YYMediator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YYMediator.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		577D9A261FB0615800A808BC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		577D9A271FB0615800A808BC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		577D9A291FB0615800A808BC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		577D9A2A1FB0615800A808BC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		577D9A2D1FB0615800A808BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		577D9A2F1FB0615800A808BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		577D9A321FB0615800A808BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		577D9A341FB0615800A808BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		577D9A351FB0615800A808BC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		577D9A3D1FB0652700A808BC /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		577D9A3E1FB0652700A808BC /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		577D9A3F1FB0652700A808BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		577D9A411FB0652700A808BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		577D9A431FB0652700A808BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		577D9A461FB0652700A808BC /* YYMediator+YYMediatorModuleAActions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "YYMediator+YYMediatorModuleAActions.h"; sourceTree = "<group>"; };
+		577D9A471FB0652700A808BC /* YYMediator+YYMediatorModuleAActions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "YYMediator+YYMediatorModuleAActions.m"; sourceTree = "<group>"; };
+		577D9A4A1FB0652700A808BC /* Target_A.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Target_A.h; sourceTree = "<group>"; };
+		577D9A4B1FB0652700A808BC /* Target_A.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Target_A.m; sourceTree = "<group>"; };
+		577D9A4C1FB0652700A808BC /* DemoModuleADetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoModuleADetailViewController.h; sourceTree = "<group>"; };
+		577D9A4D1FB0652700A808BC /* DemoModuleADetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoModuleADetailViewController.m; sourceTree = "<group>"; };
+		577D9A4E1FB0652700A808BC /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		577D9A4F1FB0652700A808BC /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		577D9A511FB0652700A808BC /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		577D9A521FB0652700A808BC /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		577D9A531FB0652700A808BC /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		577D9A541FB0652700A808BC /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		577D9A561FB0652700A808BC /* YYMediator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYMediator.h; sourceTree = "<group>"; };
+		577D9A571FB0652700A808BC /* YYMediator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYMediator.m; sourceTree = "<group>"; };
+		C260CB418431A8E96D070222 /* Pods-YYMediator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YYMediator.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YYMediator/Pods-YYMediator.debug.xcconfig"; sourceTree = "<group>"; };
+		DC9496E0BC7C4A8DCD5C5EC3 /* libPods-YYMediator.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YYMediator.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F89615C68F5E01D41882280C /* Pods-YYMediator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YYMediator.release.xcconfig"; path = "Pods/Target Support Files/Pods-YYMediator/Pods-YYMediator.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FCC7C7A37F14CF20276FE8D7 /* libPods-YYMediator.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,8 +63,10 @@
 		577D9A1A1FB0615800A808BC = {
 			isa = PBXGroup;
 			children = (
-				577D9A251FB0615800A808BC /* YYMediator */,
+				577D9A3C1FB0652700A808BC /* YYMediator */,
 				577D9A241FB0615800A808BC /* Products */,
+				7008F75A9E7E873D4BA08525 /* Pods */,
+				DE0DB55E5FE945998256C6FA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,20 +78,95 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		577D9A251FB0615800A808BC /* YYMediator */ = {
+		577D9A3C1FB0652700A808BC /* YYMediator */ = {
 			isa = PBXGroup;
 			children = (
-				577D9A261FB0615800A808BC /* AppDelegate.h */,
-				577D9A271FB0615800A808BC /* AppDelegate.m */,
-				577D9A291FB0615800A808BC /* ViewController.h */,
-				577D9A2A1FB0615800A808BC /* ViewController.m */,
-				577D9A2C1FB0615800A808BC /* Main.storyboard */,
-				577D9A2F1FB0615800A808BC /* Assets.xcassets */,
-				577D9A311FB0615800A808BC /* LaunchScreen.storyboard */,
-				577D9A341FB0615800A808BC /* Info.plist */,
-				577D9A351FB0615800A808BC /* main.m */,
+				577D9A3D1FB0652700A808BC /* AppDelegate.h */,
+				577D9A3E1FB0652700A808BC /* AppDelegate.m */,
+				577D9A3F1FB0652700A808BC /* Assets.xcassets */,
+				577D9A401FB0652700A808BC /* LaunchScreen.storyboard */,
+				577D9A421FB0652700A808BC /* Main.storyboard */,
+				577D9A441FB0652700A808BC /* Categories */,
+				577D9A481FB0652700A808BC /* DemoModule */,
+				577D9A4E1FB0652700A808BC /* Info.plist */,
+				577D9A4F1FB0652700A808BC /* main.m */,
+				577D9A501FB0652700A808BC /* TableViewController */,
+				577D9A531FB0652700A808BC /* ViewController.h */,
+				577D9A541FB0652700A808BC /* ViewController.m */,
+				577D9A551FB0652700A808BC /* YYMediator */,
 			);
 			path = YYMediator;
+			sourceTree = "<group>";
+		};
+		577D9A441FB0652700A808BC /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				577D9A451FB0652700A808BC /* ModuleA */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		577D9A451FB0652700A808BC /* ModuleA */ = {
+			isa = PBXGroup;
+			children = (
+				577D9A461FB0652700A808BC /* YYMediator+YYMediatorModuleAActions.h */,
+				577D9A471FB0652700A808BC /* YYMediator+YYMediatorModuleAActions.m */,
+			);
+			path = ModuleA;
+			sourceTree = "<group>";
+		};
+		577D9A481FB0652700A808BC /* DemoModule */ = {
+			isa = PBXGroup;
+			children = (
+				577D9A491FB0652700A808BC /* Actions */,
+				577D9A4C1FB0652700A808BC /* DemoModuleADetailViewController.h */,
+				577D9A4D1FB0652700A808BC /* DemoModuleADetailViewController.m */,
+			);
+			path = DemoModule;
+			sourceTree = "<group>";
+		};
+		577D9A491FB0652700A808BC /* Actions */ = {
+			isa = PBXGroup;
+			children = (
+				577D9A4A1FB0652700A808BC /* Target_A.h */,
+				577D9A4B1FB0652700A808BC /* Target_A.m */,
+			);
+			path = Actions;
+			sourceTree = "<group>";
+		};
+		577D9A501FB0652700A808BC /* TableViewController */ = {
+			isa = PBXGroup;
+			children = (
+				577D9A511FB0652700A808BC /* TableViewController.h */,
+				577D9A521FB0652700A808BC /* TableViewController.m */,
+			);
+			path = TableViewController;
+			sourceTree = "<group>";
+		};
+		577D9A551FB0652700A808BC /* YYMediator */ = {
+			isa = PBXGroup;
+			children = (
+				577D9A561FB0652700A808BC /* YYMediator.h */,
+				577D9A571FB0652700A808BC /* YYMediator.m */,
+			);
+			path = YYMediator;
+			sourceTree = "<group>";
+		};
+		7008F75A9E7E873D4BA08525 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C260CB418431A8E96D070222 /* Pods-YYMediator.debug.xcconfig */,
+				F89615C68F5E01D41882280C /* Pods-YYMediator.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DE0DB55E5FE945998256C6FA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DC9496E0BC7C4A8DCD5C5EC3 /* libPods-YYMediator.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -78,9 +176,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 577D9A391FB0615800A808BC /* Build configuration list for PBXNativeTarget "YYMediator" */;
 			buildPhases = (
+				C3B3807201B92DA74730B1AF /* [CP] Check Pods Manifest.lock */,
 				577D9A1F1FB0615800A808BC /* Sources */,
 				577D9A201FB0615800A808BC /* Frameworks */,
 				577D9A211FB0615800A808BC /* Resources */,
+				C55DD29C0B2B1DF6078AB0D9 /* [CP] Embed Pods Frameworks */,
+				AD4D565E9CDCC796BE6B0337 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -129,42 +230,96 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				577D9A331FB0615800A808BC /* LaunchScreen.storyboard in Resources */,
-				577D9A301FB0615800A808BC /* Assets.xcassets in Resources */,
-				577D9A2E1FB0615800A808BC /* Main.storyboard in Resources */,
+				577D9A591FB0652700A808BC /* Assets.xcassets in Resources */,
+				577D9A5B1FB0652700A808BC /* Main.storyboard in Resources */,
+				577D9A5A1FB0652700A808BC /* LaunchScreen.storyboard in Resources */,
+				577D9A5F1FB0652700A808BC /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		AD4D565E9CDCC796BE6B0337 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YYMediator/Pods-YYMediator-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C3B3807201B92DA74730B1AF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C55DD29C0B2B1DF6078AB0D9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YYMediator/Pods-YYMediator-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		577D9A1F1FB0615800A808BC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				577D9A2B1FB0615800A808BC /* ViewController.m in Sources */,
-				577D9A361FB0615800A808BC /* main.m in Sources */,
-				577D9A281FB0615800A808BC /* AppDelegate.m in Sources */,
+				577D9A5C1FB0652700A808BC /* YYMediator+YYMediatorModuleAActions.m in Sources */,
+				577D9A581FB0652700A808BC /* AppDelegate.m in Sources */,
+				577D9A5E1FB0652700A808BC /* DemoModuleADetailViewController.m in Sources */,
+				577D9A621FB0652700A808BC /* ViewController.m in Sources */,
+				577D9A611FB0652700A808BC /* TableViewController.m in Sources */,
+				577D9A5D1FB0652700A808BC /* Target_A.m in Sources */,
+				577D9A601FB0652700A808BC /* main.m in Sources */,
+				577D9A631FB0652700A808BC /* YYMediator.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		577D9A2C1FB0615800A808BC /* Main.storyboard */ = {
+		577D9A401FB0652700A808BC /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				577D9A2D1FB0615800A808BC /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		577D9A311FB0615800A808BC /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				577D9A321FB0615800A808BC /* Base */,
+				577D9A411FB0652700A808BC /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		577D9A421FB0652700A808BC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				577D9A431FB0652700A808BC /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -276,6 +431,7 @@
 		};
 		577D9A3A1FB0615800A808BC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C260CB418431A8E96D070222 /* Pods-YYMediator.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -289,6 +445,7 @@
 		};
 		577D9A3B1FB0615800A808BC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F89615C68F5E01D41882280C /* Pods-YYMediator.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

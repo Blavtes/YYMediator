@@ -1,8 +1,8 @@
 //
 //  AppDelegate.h
-//  YYMediator
+//  CTMediator
 //
-//  Created by Blavtes on 2017/11/6.
+//  Created by Blavtes on 17/11/06.
 //  Copyright © 2017年 Blavtes. All rights reserved.
 //
 
